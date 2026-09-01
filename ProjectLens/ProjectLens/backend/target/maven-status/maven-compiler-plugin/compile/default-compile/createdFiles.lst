@@ -1,0 +1,9 @@
+com\mfrp\plens\service\evaluation\RuleBasedEvaluationService.class
+com\mfrp\plens\config\CohortCriteria.class
+com\mfrp\plens\model\DecisionStatus.class
+com\mfrp\plens\PlensApplication.class
+com\mfrp\plens\model\UserRole.class
+com\mfrp\plens\model\ProjectSubmission.class
+com\mfrp\plens\repository\ProjectSubmissionRepository.class
+com\mfrp\plens\controller\ProjectSubmissionController.class
+com\mfrp\plens\service\ProjectSubmissionService.class

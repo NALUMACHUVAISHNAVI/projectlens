@@ -1,0 +1,1 @@
+package com.mfrp.plens.config;import java.util.List;public final class CohortCriteria{private CohortCriteria(){}public static final String THEME="AI-Enabled Enterprise Applications";public static final List<String> REQUIRED_KEYWORDS=List.of("AI","Angular","Spring Boot","REST API","MySQL");public static final int PASSING_SCORE=70;public static final int OVERLAP_THRESHOLD=60;}
