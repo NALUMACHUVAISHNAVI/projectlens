@@ -1,4 +1,13 @@
-com\mfrp\plens\controller\ProjectSubmissionController.class
-com\mfrp\plens\config\CohortCriteria.class
-com\mfrp\plens\config\WebConfig.class
+com\mfrp\plens\model\DecisionStatus.class
 com\mfrp\plens\PlensApplication.class
+com\mfrp\plens\exception\ResourceNotFoundException.class
+com\mfrp\plens\repository\ProjectSubmissionRepository.class
+com\mfrp\plens\controller\ProjectSubmissionController.class
+com\mfrp\plens\config\WebConfig.class
+com\mfrp\plens\dto\DecisionRequest.class
+com\mfrp\plens\service\evaluation\RuleBasedEvaluationService.class
+com\mfrp\plens\config\CohortCriteria.class
+com\mfrp\plens\dto\ProjectSubmissionRequest.class
+com\mfrp\plens\exception\ApiExceptionHandler.class
+com\mfrp\plens\model\ProjectSubmission.class
+com\mfrp\plens\service\ProjectSubmissionService.class
