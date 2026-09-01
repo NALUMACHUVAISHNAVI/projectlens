@@ -1,3 +1,9 @@
-# Angular frontend
+# ProjectLens Angular frontend
 
-Generate the Angular application here with `ng new projectlens-ui --directory . --routing --style scss`, then retain the `src/app` structure below. The folders are intentionally created now for an industrial feature-first layout.
+## Run locally
+
+1. Start the Spring Boot backend on port 8080.
+2. Run `npm install`.
+3. Run `npm start` and open `http://localhost:4200`.
+
+The frontend is organized into `core`, `features`, `layouts`, and `shared` folders. The API client calls the Spring Boot submission endpoints.

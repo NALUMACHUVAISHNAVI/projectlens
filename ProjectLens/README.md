@@ -1,20 +1,13 @@
 # ProjectLens
 
-## Structure
-```text
-ProjectLens/
-  backend/                         Maven + Spring Boot API
-    pom.xml
-    src/main/java/com/mfrp/plens/
-      config/ controller/ dto/ exception/ model/ repository/ service/
-  frontend/                        Angular application
-    src/app/
-      core/ shared/ layouts/ features/{auth,dashboard,submissions,reviews,pods}/
-```
+ProjectLens is a local full-stack application for evaluating pod project ideas against a fixed cohort theme. Pod Leads submit ideas, the backend calculates an alignment score and similarity warning, and Trainers make final decisions.
 
-## Run locally
-1. Create a MySQL database: `CREATE DATABASE projectlens;`
-2. In `backend`, set `DB_USERNAME` and `DB_PASSWORD`, then run `mvn spring-boot:run`.
-3. In `frontend`, run `npm install` then `npm start`.
+## Run
 
-The placeholder cohort theme is **AI-Enabled Enterprise Applications**; update it when your trainer supplies the final theme.
+1. Create the database: `CREATE DATABASE projectlens;`
+2. Update `backend/src/main/resources/application.properties` with your MySQL password.
+3. Run backend: `cd backend; mvn spring-boot:run`
+4. Run frontend: `cd frontend; npm install; npm start`
+5. Open `http://localhost:4200`.
+
+The frontend calls `http://localhost:8080/api/submissions`.

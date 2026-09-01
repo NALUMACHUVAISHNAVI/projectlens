@@ -1,1 +1,0 @@
-package com.mfrp.plens.repository;import com.mfrp.plens.model.ProjectSubmission;import org.springframework.data.jpa.repository.JpaRepository;public interface ProjectSubmissionRepository extends JpaRepository<ProjectSubmission,Long>{}
